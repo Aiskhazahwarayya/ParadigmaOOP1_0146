@@ -23,5 +23,8 @@
     <ClInclude Include="JantungHeader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ManusiaHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
