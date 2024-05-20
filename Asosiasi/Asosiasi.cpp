@@ -50,4 +50,12 @@ void dokter::tambahPasien(pasien* pPasien) {
 	pPasien->tambahDokter(this);
 }
 
+void dokter::cetakPasien() {
+	cout << "Daftar Pasien yang ditangani oleh dokter \"" << this->nama << "\":\n";
+	for (auto& a : daftar_pasien) {
+		cout << a->nama << "\n";
+	}
+	cout << endl;
+}
+
 
